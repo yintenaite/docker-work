@@ -14,19 +14,19 @@
         padding: 0;
     }
 
-    .container {
-        width: 100%;
-        height: 300px;
-        background: url("../docker.png") no-repeat center;
+    /*.container {*/
+    /*    width: 100%;*/
+    /*    height: 300px;*/
+    /*    background: url("../docker.png") no-repeat center;*/
 
-    }
+    /*}*/
 
     .warp {
         margin-top: 30px;
     }
 </style>
 <body>
-<div class="container"></div>
+<!--<div class="container"></div>-->
 <div class="warp"><?php echo phpinfo() ?></div>
 </body>
 </html>
